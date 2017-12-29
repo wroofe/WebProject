@@ -24,7 +24,6 @@ nav {
 }
 
 nav ul {
-    text-align: center;
     list-style-type: none;
     display: inline-block;
     position: relative;
@@ -45,7 +44,7 @@ nav li a {
     transition: background-color 0.2s, color 0.2s;
 }
 
-li a:hover {
+nav li a:hover {
     color: white;
     background-color: #222222;
 }
