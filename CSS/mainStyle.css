@@ -10,7 +10,6 @@ body {
 }
 
 #h-logo a {
-    text-align: center;
     text-decoration: none;
     color: #222222;
     display: inline-block;
@@ -21,7 +20,7 @@ nav {
     text-align: center;
 }
 
-ul {
+nav ul {
     text-align: center;
     list-style-type: none;
     display: inline-block;
@@ -31,11 +30,11 @@ ul {
     padding: 0;
 }
 
-li {
+nav li {
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: #222222;
     text-decoration: none;
@@ -44,6 +43,13 @@ li a {
 }
 
 li a:hover {
-        color: white;
-        background-color: #222222;
+    color: white;
+    background-color: #222222;
+}
+
+footer {
+    width: 100%;
+    font-size: 0.75em;
+    text-align: center;
+    color: #555555;
 }
