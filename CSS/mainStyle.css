@@ -5,6 +5,9 @@ body {
 }
 
 #h-logo {
+    font-family: "Segoe UI";
+    font-size: 1.5em;
+    font-weight: 600;
     text-align: center;
     width: 100%;
 }
