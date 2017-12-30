@@ -1,0 +1,63 @@
+#showcase {
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#showcase img {
+    background-color: white;
+    width: 55%;
+    height: auto;
+    opacity: 1.0;
+    transition: opacity 0.2s;
+}
+
+#showcase img:hover {
+    opacity: 0.9;
+}
+
+#welcome {
+    text-align: center;
+    width: 100%;
+}
+
+#message {
+    font-size: 2em;
+    color: #222222;
+    text-align: center;
+}
+
+.links {
+    width: 100%;
+    text-align: center;
+}
+
+.links ul {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    float: left;
+    padding: 10px;
+}
+
+.links li a {
+    display: block;
+    color: #222222;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.links li a:hover {
+    opacity: 0.9;
+}
+
+.links li a img {
+    width: 200px;
+    height: auto;
+}
